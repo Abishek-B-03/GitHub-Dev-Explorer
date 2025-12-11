@@ -1,0 +1,229 @@
+/* Due to rush hours, and non-availabilty of time, the style guide is not presented. */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #eef0f0;
+}
+
+h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.1rem;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.1rem;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+p,a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+small, .my-gh {
+    font-size: 1.6rem;
+}
+
+
+header {
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 12rem;
+}
+
+.hero-head {
+    margin-bottom: 2rem;
+}
+
+.hero-note {
+    font-size: 2.2rem;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-head {
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    gap: 5rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgb(146, 146, 146);
+    align-self: center;
+    background-color: #8bdbe8;
+    border-radius: 2.5rem;
+    padding: 5rem;
+}
+
+.flex-container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    /* gap: 6rem; */
+    width: inherit;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.flex-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    width: inherit;
+
+    
+}
+
+.card {
+    background-color: #fff;
+    width: 32rem;
+    padding: 2rem;
+    align-self: center;
+    border-radius: 2rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem grey;
+}
+
+
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 2px;
+}
+
+.card p {
+    font-weight: 500;
+
+}
+
+.button-profile {
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    background-color: rgb(27, 81, 110);
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.75rem;
+}
+.button-profile:hover {
+    background-color: rgb(2, 2, 67);
+}
+
+
+small  {
+    display: block;
+    margin-top: 8rem;
+    background-color: rgb(204, 222, 226) ;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+@media (max-width: 80rem) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+
+@media (max-width: 64rem) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 61rem) {
+    html {
+        font-size: 56.25%;
+    }
+    .flex-container-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .flex-container-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+
+    }
+    .card {
+        width: 45rem;
+    }
+    .card-container {
+        width: 75vw;
+    }
+}
+
+@media (max-width: 45rem) {
+    html {
+        font-size: 42%;
+    }
+}
+@media (max-width: 30rem) {
+    html {
+        font-size: 37.5%;
+    }
+
+    .card {
+        width: 60vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
