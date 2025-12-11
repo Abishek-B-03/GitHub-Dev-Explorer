@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mojombo</title>
+
+
+    <style>
+        
+        html {
+            font-size: 10px;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc) no-repeat;
+            background-attachment: fixed;
+        }
+
+
+        .back-button {
+            text-decoration: none;
+            display: block;
+            color: white;
+            background: linear-gradient(135deg, #ffee00, #ff0000) no-repeat;
+            padding: 1.5rem;
+            font-size: 2rem;
+            font-weight: 700;
+            border-radius: 1.2rem;
+            box-shadow: 0 0.2rem 0.7rem rgb(141, 140, 140);
+            margin-top: 20px;
+            text-align: center;
+
+
+        }
+
+        .back-button:hover {
+            background: linear-gradient(45deg, #ff0000, #ffee00) no-repeat;
+            box-shadow: 0 0.2rem 0.7rem rgb(97, 97, 97);
+            font-weight: 700;
+   
+        }
+
+        .main-card {
+            background-color: white;
+            width: 55rem ;
+            padding: 2rem;
+            border-radius:1.2rem ;
+            box-shadow: 0 1.5rem 3.5rem rgba(0,0,0,0.22);
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+
+            
+
+        }
+
+        .username {
+            font-size: 4.8rem;
+            font-weight: 800;
+            line-height: 1;
+            letter-spacing: -0.1rem;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin-bottom: 2rem;
+            
+
+
+        }
+
+        .section-name {
+            font-size: 3.2rem;
+            font-weight: 600;
+            text-align: left;
+            border-bottom: 1px solid rgb(120, 120, 120);
+            color: rgb(38, 38, 38);
+            margin-bottom: 1rem;
+
+
+
+        }
+        .data {
+            padding-bottom: 1rem;
+            font-size: 2rem;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+
+
+        }
+        .profile-url {
+            padding-bottom: 1rem;
+            font-size: 2rem;
+            font-weight: 600;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 64rem) {
+            html {
+                font-size: 0.5rem;
+            }
+        }
+
+        @media (max-width: 45rem) {
+            html {
+                font-size: 0.45rem;
+            }
+            .main-card {
+                width: 50rem;
+            }
+        }
+        @media (max-width: 30rem) {
+            html {
+                font-size: 0.4rem;
+            }
+        }
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <div class="main-card">
+        <h1 class="username">MOJOMBO</h1>
+
+        <h2 class="section-name">👤 Personal Info</h2>
+        <h3 class="data">Name    : Tom Preston-Werner </h3>
+        <h3 class="data">Username: mojombo</h3>
+        <h3 class="data">Bio     : NULL</h3>
+        <h3 class="data">Location: San Francisco</h3>
+        <h2 class="section-name">📊 GitHub Stats</h2>
+        <h3 class="data">Followers   : 24405</h3>
+        <h3 class="data">Following   : 11</h3>
+        <h3 class="data">Public Repos: 66</h3>
+
+        <h2 class="section-name">🔗 Link</h2>
+        <h3 class="data">GitHub Profile: <a href="https://github.com/mojombo" class="profile-url">@gh-mojombo</a></h3>
+
+        <a href="index.html" class="back-button">Back to Home</a>
+
+    </div>
+</body>
+</html>
